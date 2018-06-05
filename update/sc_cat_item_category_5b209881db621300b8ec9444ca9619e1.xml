@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Beef Burgers (6oz  - 50 Pack)  ">1dcfc481db621300b8ec9444ca96198d</sc_cat_item>
+        <sc_category display_value="Meats">519f4441db621300b8ec9444ca961901</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin-cb1</sys_created_by>
+        <sys_created_on>2018-06-05 08:46:34</sys_created_on>
+        <sys_id>5b209881db621300b8ec9444ca9619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Meats.Beef Burgers (6oz  - 50 Pack)  </sys_name>
+        <sys_package display_value="Flamin' Burgers" source="x_138966_flamin_b">3c0158f0dba21300b8ec9444ca961969</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flamin' Burgers">3c0158f0dba21300b8ec9444ca961969</sys_scope>
+        <sys_update_name>sc_cat_item_category_5b209881db621300b8ec9444ca9619e1</sys_update_name>
+        <sys_updated_by>admin-cb1</sys_updated_by>
+        <sys_updated_on>2018-06-05 08:46:34</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>
