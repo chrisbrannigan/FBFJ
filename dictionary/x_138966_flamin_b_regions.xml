@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Regions" max_length="40" name="x_138966_flamin_b_regions" type="collection">
+        <element display="true" label="Region" mandatory="true" max_length="40" name="region" type="string"/>
+        <element label="Regional Manager" mandatory="true" max_length="32" name="regional_manager" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <index name="index">
+            <element name="regional_manager"/>
+        </index>
+    </element>
+</database>

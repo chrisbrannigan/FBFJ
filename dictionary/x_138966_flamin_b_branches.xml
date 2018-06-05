@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Branches" max_length="40" name="x_138966_flamin_b_branches" type="collection">
+        <element label="Address" mandatory="true" max_length="140" name="address" type="string"/>
+        <element label="Branch" mandatory="true" max_length="60" name="branch" type="string"/>
+        <element label="City" mandatory="true" max_length="60" name="city" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Phone No." mandatory="true" max_length="15" name="phone_no" type="string"/>
+        <element label="region" mandatory="true" max_length="32" name="region" reference="x_138966_flamin_b_regions" type="reference"/>
+        <element label="Store Manager" mandatory="true" max_length="32" name="store_manager" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <index name="index">
+            <element name="region"/>
+        </index>
+        <index name="index2">
+            <element name="store_manager"/>
+        </index>
+    </element>
+</database>

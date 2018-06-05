@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Suppliers" max_length="40" name="x_138966_flamin_b_suppliers" type="collection">
+        <element label="Account No." mandatory="true" max_length="60" name="account_no" type="string"/>
+        <element label="Email" mandatory="true" max_length="40" name="email" type="string"/>
+        <element label="Fax No." max_length="15" name="fax_no" type="string"/>
+        <element label="Main Contact" mandatory="true" max_length="60" name="main_contact" type="string"/>
+        <element label="Phone No." mandatory="true" max_length="15" name="phone_no" type="string"/>
+        <element choice="3" label="Status" mandatory="true" max_length="40" name="status" type="choice">
+            <choice>
+                <element hint="Supplier is supplying products. Account is active." label="Active" sequence="0" value="active"/>
+                <element hint="Supplier no longer supplies goods. Account is closed." label="Retired" sequence="1" value="retired"/>
+            </choice>
+        </element>
+        <element display="true" label="Supplier Name" mandatory="true" max_length="60" name="supplier_name" type="string"/>
+        <element label="Web Address" max_length="60" name="web_address" type="string"/>
+    </element>
+</database>

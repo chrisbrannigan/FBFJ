@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="status" table="x_138966_flamin_b_suppliers" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint>Supplier is supplying products. Account is active.</hint>
+            <inactive>false</inactive>
+            <label>Active</label>
+            <language>en</language>
+            <name>x_138966_flamin_b_suppliers</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin-cb1</sys_created_by>
+            <sys_created_on>2018-06-04 21:15:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c3a1f9f8db661300b8ec9444ca961912</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin-cb1</sys_updated_by>
+            <sys_updated_on>2018-06-04 21:15:21</sys_updated_on>
+            <value>active</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint>Supplier no longer supplies goods. Account is closed.</hint>
+            <inactive>false</inactive>
+            <label>Retired</label>
+            <language>en</language>
+            <name>x_138966_flamin_b_suppliers</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin-cb1</sys_created_by>
+            <sys_created_on>2018-06-04 21:15:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>53f1b178db661300b8ec9444ca961979</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin-cb1</sys_updated_by>
+            <sys_updated_on>2018-06-04 21:15:57</sys_updated_on>
+            <value>retired</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <name>x_138966_flamin_b_suppliers</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin-cb1</sys_created_by>
+            <sys_created_on>2018-06-04 21:15:22</sys_created_on>
+            <sys_id>52f171f8db661300b8ec9444ca9619ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>status</sys_name>
+            <sys_package display_value="Flamin' Burgers" source="x_138966_flamin_b">3c0158f0dba21300b8ec9444ca961969</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Flamin' Burgers">3c0158f0dba21300b8ec9444ca961969</sys_scope>
+            <sys_update_name>sys_choice_x_138966_flamin_b_suppliers_status</sys_update_name>
+            <sys_updated_by>admin-cb1</sys_updated_by>
+            <sys_updated_on>2018-06-04 21:15:22</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
