@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_related sys_domain="global" table="x_138966_flamin_b_suppliers" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Suppliers - Default view" name="x_138966_flamin_b_suppliers" related_list="NULL" sys_domain="global" view="Default view">deebc2d5db6e1300b8ec9444ca9619a4</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_138966_flamin_b_products.supplier</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin-cb1</sys_created_by>
+            <sys_created_on>2018-06-06 12:25:39</sys_created_on>
+            <sys_id>56ebc2d5db6e1300b8ec9444ca9619a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin-cb1</sys_updated_by>
+            <sys_updated_on>2018-06-06 12:25:39</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Suppliers - Default view</calculated_name>
+            <filter/>
+            <name>x_138966_flamin_b_suppliers</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin-cb1</sys_created_by>
+            <sys_created_on>2018-06-06 12:25:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>deebc2d5db6e1300b8ec9444ca9619a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Suppliers - Default view</sys_name>
+            <sys_package display_value="Flamin' Burgers" source="x_138966_flamin_b">3c0158f0dba21300b8ec9444ca961969</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Flamin' Burgers">3c0158f0dba21300b8ec9444ca961969</sys_scope>
+            <sys_update_name>sys_ui_related_x_138966_flamin_b_suppliers_null</sys_update_name>
+            <sys_updated_by>admin-cb1</sys_updated_by>
+            <sys_updated_on>2018-06-06 12:25:39</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

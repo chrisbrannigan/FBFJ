@@ -2,6 +2,7 @@
 <database>
     <element label="Suppliers" max_length="40" name="x_138966_flamin_b_suppliers" type="collection">
         <element label="Account No." mandatory="true" max_length="60" name="account_no" type="string"/>
+        <element label="Delivery Charge" max_length="20" name="delivery_charge" type="price"/>
         <element label="Email" mandatory="true" max_length="40" name="email" type="string"/>
         <element label="Fax No." max_length="15" name="fax_no" type="string"/>
         <element label="Main Contact" mandatory="true" max_length="60" name="main_contact" type="string"/>

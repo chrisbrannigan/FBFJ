@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Sub-categories" max_length="40" name="x_138966_flamin_b_sub_categories" type="collection">
+        <element label="Parent category" mandatory="true" max_length="32" name="parent_category" reference="x_138966_flamin_b_categories" type="reference"/>
+        <element display="true" label="Sub-category" mandatory="true" max_length="40" name="sub_category" type="string"/>
+        <index name="index">
+            <element name="parent_category"/>
+        </index>
+    </element>
+</database>

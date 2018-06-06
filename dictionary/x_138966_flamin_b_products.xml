@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Products" max_length="40" name="x_138966_flamin_b_products" type="collection">
+        <element label="Category" mandatory="true" max_length="32" name="category" reference="x_138966_flamin_b_categories" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <element label="Cost per Item" mandatory="true" max_length="20" name="cost_per_item" type="price"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Product Image" max_length="40" name="product_image" type="user_image"/>
         <element display="true" label="Product Name" mandatory="true" max_length="60" name="product_name" type="string"/>
+        <element label="Sub-category" mandatory="true" max_length="32" name="sub_category" reference="x_138966_flamin_b_sub_categories" reference_qual="javascript:'parent_category=' + current.category;" type="reference" use_reference_qualifier="advanced"/>
         <element label="Supplier" mandatory="true" max_length="32" name="supplier" reference="x_138966_flamin_b_suppliers" reference_qual="status=active^EQ" reference_qual_condition="status=active^EQ" type="reference"/>
         <index name="index">
+            <element name="sub_category"/>
+        </index>
+        <index name="index2">
             <element name="supplier"/>
+        </index>
+        <index name="index3">
+            <element name="category"/>
         </index>
     </element>
 </database>
