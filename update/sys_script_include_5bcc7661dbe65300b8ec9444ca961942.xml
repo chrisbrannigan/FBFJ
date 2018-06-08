@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_138966_flamin_b.FButils</api_name>
+        <client_callable>true</client_callable>
+        <description>Flamin burgers utility scripts</description>
+        <name>FButils</name>
+        <script><![CDATA[var FButils = Class.create();
+FButils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	getCosts: function() {
+		
+		var product = this.getParameter('sysparm_product');
+		
+		//get product record
+		var gr = new GlideRecord('x_138966_flamin_b_products');
+		gr.get(product);
+		var itemCost = gr.getValue('cost_per_item'); //set the cost per item
+		
+		//get supplier record
+		var supplier = new GlideRecord('x_138966_flamin_b_suppliers');
+		supplier.get(gr.supplier);
+		var delivery = supplier.getValue('delivery_charge'); // set the delivery charge
+		
+		// build json object
+		var costs = {
+			item_cost:itemCost,
+			delivery_cost:delivery
+		};
+		
+		//return json object containing prices
+		return JSON.stringify(costs);
+		
+	},
+	
+    type: 'FButils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin-cb1</sys_created_by>
+        <sys_created_on>2018-06-07 10:38:32</sys_created_on>
+        <sys_id>5bcc7661dbe65300b8ec9444ca961942</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>FButils</sys_name>
+        <sys_package display_value="Flamin' Burgers" source="x_138966_flamin_b">3c0158f0dba21300b8ec9444ca961969</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flamin' Burgers">3c0158f0dba21300b8ec9444ca961969</sys_scope>
+        <sys_update_name>sys_script_include_5bcc7661dbe65300b8ec9444ca961942</sys_update_name>
+        <sys_updated_by>admin-cb1</sys_updated_by>
+        <sys_updated_on>2018-06-07 13:07:07</sys_updated_on>
+    </sys_script_include>
+</record_update>

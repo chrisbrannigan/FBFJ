@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="branch" table="x_138966_flamin_b_branches">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="product" table="x_138966_flamin_b_orders">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -15,7 +15,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Branch</column_label>
+        <column_label>Product</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -23,25 +23,25 @@
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>true</display>
+        <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>branch</element>
+        <element>product</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Reference">reference</internal_type>
         <mandatory>true</mandatory>
-        <max_length>60</max_length>
-        <name>x_138966_flamin_b_branches</name>
+        <max_length>32</max_length>
+        <name>x_138966_flamin_b_orders</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="x_138966_flamin_b_products">x_138966_flamin_b_products</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -53,16 +53,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin-cb1</sys_created_by>
-        <sys_created_on>2018-06-04 17:38:47</sys_created_on>
-        <sys_id>4bdfbcf8dbe21300b8ec9444ca9619de</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Branch</sys_name>
+        <sys_created_on>2018-06-06 21:21:52</sys_created_on>
+        <sys_id>e266c425db625300b8ec9444ca96190f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Product</sys_name>
         <sys_package display_value="Flamin' Burgers" source="x_138966_flamin_b">3c0158f0dba21300b8ec9444ca961969</sys_package>
         <sys_policy/>
         <sys_scope display_value="Flamin' Burgers">3c0158f0dba21300b8ec9444ca961969</sys_scope>
-        <sys_update_name>sys_dictionary_x_138966_flamin_b_branches_branch</sys_update_name>
+        <sys_update_name>sys_dictionary_x_138966_flamin_b_orders_product</sys_update_name>
         <sys_updated_by>admin-cb1</sys_updated_by>
-        <sys_updated_on>2018-06-07 19:09:45</sys_updated_on>
+        <sys_updated_on>2018-06-06 21:21:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

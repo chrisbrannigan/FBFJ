@@ -7,38 +7,38 @@
         <content_page/>
         <device_type/>
         <filter/>
-        <hint/>
+        <hint>Place a new order here</hint>
         <homepage/>
         <image/>
-        <link_type>SEPARATOR</link_type>
+        <link_type>NEW</link_type>
         <map_page/>
-        <mobile_title>Administration</mobile_title>
+        <mobile_title>Place New Order</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name/>
-        <order>5000</order>
+        <name>x_138966_flamin_b_orders</name>
+        <order>120</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
         <roles/>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin-cb1</sys_created_by>
-        <sys_created_on>2018-06-05 19:22:37</sys_created_on>
+        <sys_created_on>2018-06-07 19:57:53</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>7d812601dba61300b8ec9444ca9619f6</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Administration</sys_name>
+        <sys_id>65ccb035dbea5300b8ec9444ca961921</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Place New Order</sys_name>
         <sys_overrides/>
         <sys_package display_value="Flamin' Burgers" source="x_138966_flamin_b">3c0158f0dba21300b8ec9444ca961969</sys_package>
         <sys_policy/>
         <sys_scope display_value="Flamin' Burgers">3c0158f0dba21300b8ec9444ca961969</sys_scope>
-        <sys_update_name>sys_app_module_7d812601dba61300b8ec9444ca9619f6</sys_update_name>
+        <sys_update_name>sys_app_module_65ccb035dbea5300b8ec9444ca961921</sys_update_name>
         <sys_updated_by>admin-cb1</sys_updated_by>
-        <sys_updated_on>2018-06-07 09:37:52</sys_updated_on>
+        <sys_updated_on>2018-06-07 20:01:14</sys_updated_on>
         <timeline_page/>
-        <title>Administration</title>
+        <title>Place New Order</title>
         <uncancelable>false</uncancelable>
-        <view_name/>
+        <view_name>new_order</view_name>
         <window_name/>
     </sys_app_module>
 </record_update>

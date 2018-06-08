@@ -6,37 +6,39 @@
         <assessment/>
         <content_page/>
         <device_type/>
-        <filter/>
+        <filter table="x_138966_flamin_b_products">category=d1076ac1dba61300b8ec9444ca96199a^EQ<item display_table="x_138966_flamin_b_categories" display_value="Consumables" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="d1076ac1dba61300b8ec9444ca96199a"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
         <hint/>
         <homepage/>
         <image/>
-        <link_type>DIRECT</link_type>
+        <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>Flamin Burgers Catalog</mobile_title>
+        <mobile_title>Consumables</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name/>
-        <order>100</order>
+        <name>x_138966_flamin_b_products</name>
+        <order>2300</order>
         <override_menu_roles>false</override_menu_roles>
-        <query>catalog_home.do?sysparm_catalog=33bc0c01db621300b8ec9444ca961995&amp;sysparm_catalog_view=catalog_flamin_burgers_catalog</query>
+        <query/>
         <report/>
         <roles/>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin-cb1</sys_created_by>
-        <sys_created_on>2018-06-05 09:54:39</sys_created_on>
+        <sys_created_on>2018-06-07 09:47:19</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>a99f1cc9db621300b8ec9444ca9619fa</sys_id>
+        <sys_id>aa90b2a9dba65300b8ec9444ca961924</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name>Flamin' Burgers Catalog</sys_name>
+        <sys_name>Consumables</sys_name>
         <sys_overrides/>
         <sys_package display_value="Flamin' Burgers" source="x_138966_flamin_b">3c0158f0dba21300b8ec9444ca961969</sys_package>
         <sys_policy/>
         <sys_scope display_value="Flamin' Burgers">3c0158f0dba21300b8ec9444ca961969</sys_scope>
-        <sys_update_name>sys_app_module_a99f1cc9db621300b8ec9444ca9619fa</sys_update_name>
+        <sys_update_name>sys_app_module_aa90b2a9dba65300b8ec9444ca961924</sys_update_name>
         <sys_updated_by>admin-cb1</sys_updated_by>
-        <sys_updated_on>2018-06-05 09:57:21</sys_updated_on>
+        <sys_updated_on>2018-06-07 09:50:12</sys_updated_on>
         <timeline_page/>
-        <title>Flamin' Burgers Catalog</title>
+        <title>Consumables</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

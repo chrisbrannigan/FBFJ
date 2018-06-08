@@ -2,7 +2,7 @@
 <database>
     <element label="Branches" max_length="40" name="x_138966_flamin_b_branches" type="collection">
         <element label="Address" mandatory="true" max_length="140" name="address" type="string"/>
-        <element label="Branch" mandatory="true" max_length="60" name="branch" type="string"/>
+        <element display="true" label="Branch" mandatory="true" max_length="60" name="branch" type="string"/>
         <element label="City" mandatory="true" max_length="60" name="city" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Phone No." mandatory="true" max_length="15" name="phone_no" type="string"/>

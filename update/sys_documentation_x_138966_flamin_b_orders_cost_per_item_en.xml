@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="cost_per_item" label="Cost per item" language="en" table="x_138966_flamin_b_orders">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>cost_per_item</element>
+            <help/>
+            <hint/>
+            <label>Cost per item</label>
+            <language>en</language>
+            <name>x_138966_flamin_b_orders</name>
+            <plural>Cost per items</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin-cb1</sys_created_by>
+            <sys_created_on>2018-06-06 21:38:13</sys_created_on>
+            <sys_id>ac6a8465db625300b8ec9444ca961913</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Cost per item</sys_name>
+            <sys_package display_value="Flamin' Burgers" source="x_138966_flamin_b">3c0158f0dba21300b8ec9444ca961969</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Flamin' Burgers">3c0158f0dba21300b8ec9444ca961969</sys_scope>
+            <sys_update_name>sys_documentation_x_138966_flamin_b_orders_cost_per_item_en</sys_update_name>
+            <sys_updated_by>admin-cb1</sys_updated_by>
+            <sys_updated_on>2018-06-06 21:38:13</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
