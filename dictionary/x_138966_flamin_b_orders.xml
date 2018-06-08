@@ -10,7 +10,7 @@
         <element label="Order Updates" max_length="4000" name="order_updates" type="journal_input"/>
         <element label="Product" mandatory="true" max_length="32" name="product" reference="x_138966_flamin_b_products" type="reference"/>
         <element default="1" label="Quantity" mandatory="true" max_length="40" name="quantity" type="integer"/>
-        <element choice="3" default="draft" label="Status" max_length="40" name="status" type="choice">
+        <element choice="3" default="draft" label="Status" max_length="40" name="status" read_only="true" type="choice">
             <choice>
                 <element hint="Order is in a draft state and has not yet been released for approval" label="Draft" sequence="0" value="draft"/>
                 <element hint="Order has been released for approval" label="Pending Approval" sequence="1" value="pending approval"/>
