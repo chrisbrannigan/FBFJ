@@ -13,7 +13,7 @@
         <script><![CDATA[function onLoad() {
    //if oder is in the 'draft' state, add message.
    if(g_form.getValue('status') == 'draft' && !g_form.isNewRecord()){
-	   g_form.addInfoMessage('This order has not yet been submitted. Order in DRAFT state.');
+	   g_form.addInfoMessage('This order has not yet been submitted for approval. Order in DRAFT state.');
    }
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
@@ -22,7 +22,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>465f7c75dbea5300b8ec9444ca961998</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Notify of draft status</sys_name>
         <sys_overrides/>
         <sys_package display_value="Flamin' Burgers" source="x_138966_flamin_b">3c0158f0dba21300b8ec9444ca961969</sys_package>
@@ -30,7 +30,7 @@
         <sys_scope display_value="Flamin' Burgers">3c0158f0dba21300b8ec9444ca961969</sys_scope>
         <sys_update_name>sys_script_client_465f7c75dbea5300b8ec9444ca961998</sys_update_name>
         <sys_updated_by>admin-cb1</sys_updated_by>
-        <sys_updated_on>2018-06-07 21:01:31</sys_updated_on>
+        <sys_updated_on>2018-06-09 13:28:54</sys_updated_on>
         <table>x_138966_flamin_b_orders</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>

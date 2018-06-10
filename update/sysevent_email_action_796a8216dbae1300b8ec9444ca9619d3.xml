@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_138966_flamin_b_orders</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>x_138966_flamin_b.order.orderitems</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <importance>high</importance>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><span style="font-family: helvetica; font-size: 10pt;">Dear ${product.supplier.supplier_name},</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: helvetica; font-size: 10pt;">Flamin' burgers would like to place the following order:</span></p>
+<table style="border-color: #404040; background-color: #e3e3e3; float: left;" border="1px" cellpadding="5px">
+<tbody>
+<tr>
+<td><strong><span style="font-family: helvetica; font-size: 10pt;">&nbsp;Number:&nbsp;</span></strong></td>
+<td><strong><span style="font-family: helvetica; font-size: 10pt;">&nbsp;Product:&nbsp;</span></strong></td>
+<td><strong><span style="font-family: helvetica; font-size: 10pt;">&nbsp;Item Cost:</span></strong></td>
+<td><strong><span style="font-family: helvetica; font-size: 10pt;">&nbsp;Quantity:</span></strong></td>
+<td><strong><span style="font-family: helvetica; font-size: 10pt;">&nbsp;Ordered by:&nbsp;</span></strong></td>
+</tr>
+<tr>
+<td><strong><span style="font-family: helvetica; font-size: 10pt;">&nbsp;${number}</span></strong></td>
+<td><strong><span style="font-family: helvetica; font-size: 10pt;">&nbsp;${product}</span></strong></td>
+<td><strong><span style="font-family: helvetica; font-size: 10pt;">&nbsp;${cost_per_item}</span></strong></td>
+<td><strong><span style="font-family: helvetica; font-size: 10pt;">&nbsp;${quantity}</span></strong></td>
+<td><strong><span style="font-family: helvetica; font-size: 10pt;">&nbsp;${sys_created_by}</span></strong></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-family: helvetica; font-size: 10pt;">The below balance will be paid to you on receipt of the order (Note: this includes your delivery charge):</span>&nbsp;</p>
+<p><span style="font-family: helvetica; font-size: 10pt;"><span style="font-size: 12pt;"><strong>Total: ${total_cost}</strong></span></span></p>
+<p><span style="font-size: 12pt;"><strong><span style="font-family: helvetica;">Delivery:</span></strong></span></p>
+<p><br /><strong><span style="font-family: helvetica; font-size: 10pt;">Branch: ${branch.branch}</span></strong></p>
+<p><strong><span style="font-size: 10pt; font-family: helvetica;">Address: ${branch.address}</span></strong></p>
+<p><strong><span style="font-size: 10pt; font-family: helvetica;">City: ${branch.city}</span></strong><br /><span style="font-family: helvetica; font-size: 10pt;">&nbsp;</span></p>
+<p><span style="font-family: helvetica; font-size: 10pt;">Yours Sincerely,</span></p>
+<p><span style="font-family: helvetica; font-size: 10pt;">Flamin' Burgers&nbsp;</span></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Place order with Supplier</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>product.supplier.email</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Order Placed - Flamin' Burgers - ${number}</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin-cb1</sys_created_by>
+        <sys_created_on>2018-06-09 14:56:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>796a8216dbae1300b8ec9444ca9619d3</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Place order with Supplier</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Flamin' Burgers" source="x_138966_flamin_b">3c0158f0dba21300b8ec9444ca961969</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flamin' Burgers">3c0158f0dba21300b8ec9444ca961969</sys_scope>
+        <sys_update_name>sysevent_email_action_796a8216dbae1300b8ec9444ca9619d3</sys_update_name>
+        <sys_updated_by>admin-cb1</sys_updated_by>
+        <sys_updated_on>2018-06-09 20:19:09</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

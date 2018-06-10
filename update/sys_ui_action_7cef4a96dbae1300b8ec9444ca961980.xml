@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>order_received</action_name>
+        <active>true</active>
+        <client>true</client>
+        <comments/>
+        <condition>current.status == 'out for delivery'</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_style>primary</form_style>
+        <hint/>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Mark Order as Received</name>
+        <onclick>orderReceived()</onclick>
+        <order>1300</order>
+        <script><![CDATA[function orderReceived(){
+	var ans = confirm('Are you sure you want to mark the order as recieved? \n\n Once marked as recieved the record will become read-only.');
+	
+	if(ans == false){
+		return false;
+	} else {
+		gsftSubmit(null, g_form.getElement(), 'order_received');
+	}
+}
+
+if(typeof window == 'undefined')
+	insertReceived();
+
+function insertReceived(){
+	//insert current date time to order received
+	var gdt = new GlideDateTime();
+	current.setValue('order_received',gdt);
+	
+	//update status
+	current.setValue('status','order received');
+	
+	//update and redirect to current
+	current.update();
+	action.setRedirectURL(current);
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin-cb1</sys_created_by>
+        <sys_created_on>2018-06-09 15:22:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7cef4a96dbae1300b8ec9444ca961980</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Mark Order as Received</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Flamin' Burgers" source="x_138966_flamin_b">3c0158f0dba21300b8ec9444ca961969</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flamin' Burgers">3c0158f0dba21300b8ec9444ca961969</sys_scope>
+        <sys_update_name>sys_ui_action_7cef4a96dbae1300b8ec9444ca961980</sys_update_name>
+        <sys_updated_by>admin-cb1</sys_updated_by>
+        <sys_updated_on>2018-06-10 08:47:52</sys_updated_on>
+        <table>x_138966_flamin_b_orders</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>true</ui16_compatible>
+    </sys_ui_action>
+</record_update>

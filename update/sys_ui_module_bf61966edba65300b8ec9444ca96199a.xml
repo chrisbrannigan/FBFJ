@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Flamin' Burgers">4adf74bcdbe21300b8ec9444ca96190a</application>
+        <filter/>
+        <name>All Orders</name>
+        <order>250</order>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_138966_flamin_b.FBadmin</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin-cb1</sys_created_by>
+        <sys_created_on>2018-06-10 10:03:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bf61966edba65300b8ec9444ca96199a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>All Orders</sys_name>
+        <sys_package display_value="Flamin' Burgers" source="x_138966_flamin_b">3c0158f0dba21300b8ec9444ca961969</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flamin' Burgers">3c0158f0dba21300b8ec9444ca961969</sys_scope>
+        <sys_update_name>sys_ui_module_bf61966edba65300b8ec9444ca96199a</sys_update_name>
+        <sys_updated_by>admin-cb1</sys_updated_by>
+        <sys_updated_on>2018-06-10 18:50:28</sys_updated_on>
+        <table>x_138966_flamin_b_orders</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

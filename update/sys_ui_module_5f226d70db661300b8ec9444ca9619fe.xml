@@ -5,7 +5,7 @@
         <application display_value="Flamin' Burgers">4adf74bcdbe21300b8ec9444ca96190a</application>
         <filter/>
         <name>Suppliers</name>
-        <order/>
+        <order>2000</order>
         <path/>
         <path_relative_to_root>false</path_relative_to_root>
         <roles>x_138966_flamin_b.user</roles>
@@ -15,14 +15,14 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5f226d70db661300b8ec9444ca9619fe</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Suppliers</sys_name>
         <sys_package display_value="Flamin' Burgers" source="x_138966_flamin_b">3c0158f0dba21300b8ec9444ca961969</sys_package>
         <sys_policy/>
         <sys_scope display_value="Flamin' Burgers">3c0158f0dba21300b8ec9444ca961969</sys_scope>
         <sys_update_name>sys_ui_module_5f226d70db661300b8ec9444ca9619fe</sys_update_name>
         <sys_updated_by>admin-cb1</sys_updated_by>
-        <sys_updated_on>2018-06-04 20:06:21</sys_updated_on>
+        <sys_updated_on>2018-06-10 16:43:44</sys_updated_on>
         <table>x_138966_flamin_b_suppliers</table>
         <uncancelable>false</uncancelable>
         <view_name/>

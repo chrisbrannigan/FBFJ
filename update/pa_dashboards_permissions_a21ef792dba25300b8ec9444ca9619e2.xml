@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="pa_dashboards_permissions">
+    <pa_dashboards_permissions action="INSERT_OR_UPDATE">
+        <dashboard display_value="Flamin Burgers Dashboard">4d5c7752dba25300b8ec9444ca96192c</dashboard>
+        <delete>false</delete>
+        <group display_value="Flamin Burgers Branch managers" name="Flamin Burgers Branch managers">edc0384edba21300b8ec9444ca9619e7</group>
+        <identity>edc0384edba21300b8ec9444ca9619e7</identity>
+        <read>true</read>
+        <role/>
+        <sys_class_name>pa_dashboards_permissions</sys_class_name>
+        <sys_created_by>admin-cb1</sys_created_by>
+        <sys_created_on>2018-06-09 23:18:29</sys_created_on>
+        <sys_id>a21ef792dba25300b8ec9444ca9619e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>edc0384edba21300b8ec9444ca9619e7</sys_name>
+        <sys_package display_value="Flamin' Burgers" source="x_138966_flamin_b">3c0158f0dba21300b8ec9444ca961969</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flamin' Burgers">3c0158f0dba21300b8ec9444ca961969</sys_scope>
+        <sys_update_name>pa_dashboards_permissions_a21ef792dba25300b8ec9444ca9619e2</sys_update_name>
+        <sys_updated_by>admin-cb1</sys_updated_by>
+        <sys_updated_on>2018-06-09 23:18:29</sys_updated_on>
+        <type>2</type>
+        <user/>
+        <write>false</write>
+    </pa_dashboards_permissions>
+</record_update>

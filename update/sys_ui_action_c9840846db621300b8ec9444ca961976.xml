@@ -24,7 +24,10 @@
         <onclick>requestApproval()</onclick>
         <order>1000</order>
         <script><![CDATA[function requestApproval(){
+	var approveMsg = 'Approval has been requested for this order.';
+	
 	g_form.setValue('status','pending approval');
+	g_form.setValue('order_updates',approveMsg);
 	g_form.save();
 }
 ]]></script>
@@ -38,7 +41,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c9840846db621300b8ec9444ca961976</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>Request Approval</sys_name>
         <sys_overrides/>
         <sys_package display_value="Flamin' Burgers" source="x_138966_flamin_b">3c0158f0dba21300b8ec9444ca961969</sys_package>
@@ -46,7 +49,7 @@
         <sys_scope display_value="Flamin' Burgers">3c0158f0dba21300b8ec9444ca961969</sys_scope>
         <sys_update_name>sys_ui_action_c9840846db621300b8ec9444ca961976</sys_update_name>
         <sys_updated_by>admin-cb1</sys_updated_by>
-        <sys_updated_on>2018-06-08 12:12:28</sys_updated_on>
+        <sys_updated_on>2018-06-10 18:37:53</sys_updated_on>
         <table>x_138966_flamin_b_orders</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>true</ui16_compatible>

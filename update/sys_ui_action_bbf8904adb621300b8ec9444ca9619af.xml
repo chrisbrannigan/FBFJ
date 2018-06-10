@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
-        <action_name>cancel_order</action_name>
+        <action_name>fb_order_cancel</action_name>
         <active>true</active>
         <client>true</client>
         <comments>ui action that cancels order - only available during draft and approval stages. Once approved - order is unable to be cancelled.</comments>
-        <condition>!current.isNewRecord()  &amp;&amp;  (gs.getUserID() == current.ordered_by || gs.getUserID(hasRole('admin')))</condition>
+        <condition>!current.isNewRecord() &amp;&amp; (current.status == 'draft' || current.status == 'pending approval')  &amp;&amp;  (gs.getUserID() == current.ordered_by || gs.getUserID(hasRole('admin')))</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_context_menu>false</form_context_menu>
@@ -21,48 +21,44 @@
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
         <name>Cancel Order</name>
-        <onclick>cancelOrder()</onclick>
+        <onclick>fbCancelOrder()</onclick>
         <order>1200</order>
-        <script><![CDATA[function cancelOrder(){
+        <script><![CDATA[function fbCancelOrder(){
 	
-	var state = g_form.getValue('status');
+	var ans = confirm('Are you sure you wish to Cancel this order? If cancelled, this record cannot be reused.');
 	
-	var cancelMsg = "This order has been cancelled";
-	
-	if(state == 'draft' || state == 'pending approval') {
-		if(state == 'draft') {
+	if(ans == false) {
+		return false;
+	} else {
+		var state = g_form.getValue('status');
+		
+		var cancelMsg = "This order has been cancelled";
+		
+		if(state == 'draft' || state == 'pending approval') {
 			//set cancelled values only
 			g_form.setValue('status','order cancelled');
 			g_form.setValue('order_updates',cancelMsg);
-			g_form.save();
+			gsftSubmit(null, g_form.getFormElement(), 'fb_order_cancel');
 		} else {
-			//set cancelled values and run business rule
-			g_form.setValue('status','order cancelled');
-			g_form.setValue('order_updates',cancelMsg);
-			g_form.save();
-			//fire the server-side code.
-			gsftSubmit(gel('cancel_order'));
+			//unable to cancel
+			g_form.addErrorMessage('Unable to cancel order');
 		}
-	} else {
-		//unable to cancel
-		g_form.addErrorMessage('Unable to cancel order');
 	}
 }
 
-if(typeof window == 'undefined'){
-	runCancelWF();
-}
+if(typeof window == 'undefined')
+	//call server-side action
+	fbOrderCancel();
 
-function runCancelWF(){
-	//set a redirect action
+function fbOrderCancel(){
+	//queue event to cancel approvals and workflow
+	gs.eventQueue('x_138966_flamin_b.order.cancelled', current, gs.getUserName(), gs.getUserDisplayName());
+	//set cancellation date and time
+	var gdt = new GlideDateTime();
+	current.setValue('order_cancelled',gdt);
+	//update and redirect user to current
+	current.update();
 	action.setRedirectURL(current);
-	//load workflow helper
-	var w = new Workflow();
-	var gr = new GlideRecord('wf_context');
-	// get the WF context of the current record and cancel it.
-	if (gr.get(current.context)){
-		w.cancelContext(gr);
-	}
 }]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
@@ -74,7 +70,7 @@ function runCancelWF(){
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bbf8904adb621300b8ec9444ca9619af</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name>Cancel Order</sys_name>
         <sys_overrides/>
         <sys_package display_value="Flamin' Burgers" source="x_138966_flamin_b">3c0158f0dba21300b8ec9444ca961969</sys_package>
@@ -82,7 +78,7 @@ function runCancelWF(){
         <sys_scope display_value="Flamin' Burgers">3c0158f0dba21300b8ec9444ca961969</sys_scope>
         <sys_update_name>sys_ui_action_bbf8904adb621300b8ec9444ca9619af</sys_update_name>
         <sys_updated_by>admin-cb1</sys_updated_by>
-        <sys_updated_on>2018-06-08 13:33:16</sys_updated_on>
+        <sys_updated_on>2018-06-10 14:18:26</sys_updated_on>
         <table>x_138966_flamin_b_orders</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>true</ui16_compatible>

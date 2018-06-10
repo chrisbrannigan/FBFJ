@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_138966_flamin_b.FBadmin" name="x_138966_flamin_b.FBadmin">a4527d96db6e1300b8ec9444ca961945</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin-cb1</sys_created_by>
+        <sys_created_on>2018-06-09 13:08:28</sys_created_on>
+        <sys_id>ba72bd96db6e1300b8ec9444ca9619d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>a4527d96db6e1300b8ec9444ca961945</sys_name>
+        <sys_package display_value="Flamin' Burgers" source="x_138966_flamin_b">3c0158f0dba21300b8ec9444ca961969</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flamin' Burgers">3c0158f0dba21300b8ec9444ca961969</sys_scope>
+        <sys_update_name>sys_embedded_help_role_ba72bd96db6e1300b8ec9444ca9619d3</sys_update_name>
+        <sys_updated_by>admin-cb1</sys_updated_by>
+        <sys_updated_on>2018-06-09 13:08:28</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

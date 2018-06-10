@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_138966_flamin_b_orders" version="2" view="RPTb988771edb625300b8ec9444ca96190d">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_138966_flamin_b_orders" element="NULL" name="x_138966_flamin_b_orders" parent="NULL" relationship="NULL" sys_domain="global" view="f988ff9edb625300b8ec9444ca96196e">34ceb7d2dba25300b8ec9444ca96198a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin-cb1</sys_created_by>
+            <sys_created_on>2018-06-09 23:21:22</sys_created_on>
+            <sys_id>b8ceb7d2dba25300b8ec9444ca96198a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin-cb1</sys_updated_by>
+            <sys_updated_on>2018-06-09 23:21:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>branch</element>
+            <list_id display_value="x_138966_flamin_b_orders" element="NULL" name="x_138966_flamin_b_orders" parent="NULL" relationship="NULL" sys_domain="global" view="f988ff9edb625300b8ec9444ca96196e">34ceb7d2dba25300b8ec9444ca96198a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin-cb1</sys_created_by>
+            <sys_created_on>2018-06-09 23:21:22</sys_created_on>
+            <sys_id>3cceb7d2dba25300b8ec9444ca96198a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin-cb1</sys_updated_by>
+            <sys_updated_on>2018-06-09 23:21:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>product</element>
+            <list_id display_value="x_138966_flamin_b_orders" element="NULL" name="x_138966_flamin_b_orders" parent="NULL" relationship="NULL" sys_domain="global" view="f988ff9edb625300b8ec9444ca96196e">34ceb7d2dba25300b8ec9444ca96198a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin-cb1</sys_created_by>
+            <sys_created_on>2018-06-09 23:21:22</sys_created_on>
+            <sys_id>bcceb7d2dba25300b8ec9444ca96198a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin-cb1</sys_updated_by>
+            <sys_updated_on>2018-06-09 23:21:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ordered_by</element>
+            <list_id display_value="x_138966_flamin_b_orders" element="NULL" name="x_138966_flamin_b_orders" parent="NULL" relationship="NULL" sys_domain="global" view="f988ff9edb625300b8ec9444ca96196e">34ceb7d2dba25300b8ec9444ca96198a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin-cb1</sys_created_by>
+            <sys_created_on>2018-06-09 23:21:22</sys_created_on>
+            <sys_id>30ceb7d2dba25300b8ec9444ca96198b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin-cb1</sys_updated_by>
+            <sys_updated_on>2018-06-09 23:21:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>total_cost</element>
+            <list_id display_value="x_138966_flamin_b_orders" element="NULL" name="x_138966_flamin_b_orders" parent="NULL" relationship="NULL" sys_domain="global" view="f988ff9edb625300b8ec9444ca96196e">34ceb7d2dba25300b8ec9444ca96198a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin-cb1</sys_created_by>
+            <sys_created_on>2018-06-09 23:21:22</sys_created_on>
+            <sys_id>b0ceb7d2dba25300b8ec9444ca96198b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin-cb1</sys_updated_by>
+            <sys_updated_on>2018-06-09 23:21:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_138966_flamin_b_orders</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin-cb1</sys_created_by>
+            <sys_created_on>2018-06-09 23:21:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>34ceb7d2dba25300b8ec9444ca96198a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_138966_flamin_b_orders</sys_name>
+            <sys_package display_value="Flamin' Burgers" source="x_138966_flamin_b">3c0158f0dba21300b8ec9444ca961969</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Flamin' Burgers">3c0158f0dba21300b8ec9444ca961969</sys_scope>
+            <sys_update_name>sys_ui_list_x_138966_flamin_b_orders_RPTb988771edb625300b8ec9444ca96190d</sys_update_name>
+            <sys_updated_by>admin-cb1</sys_updated_by>
+            <sys_updated_on>2018-06-09 23:21:22</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rptb988771edb625300b8ec9444ca96190d" name="RPTb988771edb625300b8ec9444ca96190d">f988ff9edb625300b8ec9444ca96196e</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>
