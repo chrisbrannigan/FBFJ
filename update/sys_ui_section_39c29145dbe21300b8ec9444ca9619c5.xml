@@ -5,13 +5,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin-cb1</sys_created_by>
-            <sys_created_on>2018-06-05 20:39:03</sys_created_on>
-            <sys_id>4443fa89dba61300b8ec9444ca96191d</sys_id>
+            <sys_created_on>2018-06-10 19:16:43</sys_created_on>
+            <sys_id>66501cfedbaa5300b8ec9444ca961969</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_138966_flamin_b_products" sys_domain="global" view="Default view">39c29145dbe21300b8ec9444ca9619c5</sys_ui_section>
             <sys_updated_by>admin-cb1</sys_updated_by>
-            <sys_updated_on>2018-06-05 20:39:03</sys_updated_on>
+            <sys_updated_on>2018-06-10 19:16:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>product_name</element>
             <position>1</position>
             <sys_created_by>admin-cb1</sys_created_by>
-            <sys_created_on>2018-06-05 20:39:03</sys_created_on>
-            <sys_id>c443fa89dba61300b8ec9444ca96191d</sys_id>
+            <sys_created_on>2018-06-10 19:16:43</sys_created_on>
+            <sys_id>e6501cfedbaa5300b8ec9444ca961969</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_138966_flamin_b_products" sys_domain="global" view="Default view">39c29145dbe21300b8ec9444ca9619c5</sys_ui_section>
             <sys_updated_by>admin-cb1</sys_updated_by>
-            <sys_updated_on>2018-06-05 20:39:03</sys_updated_on>
+            <sys_updated_on>2018-06-10 19:16:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,13 +33,13 @@
             <element>category</element>
             <position>2</position>
             <sys_created_by>admin-cb1</sys_created_by>
-            <sys_created_on>2018-06-05 20:39:03</sys_created_on>
-            <sys_id>4843fa89dba61300b8ec9444ca96191d</sys_id>
+            <sys_created_on>2018-06-10 19:16:43</sys_created_on>
+            <sys_id>6a501cfedbaa5300b8ec9444ca961969</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_138966_flamin_b_products" sys_domain="global" view="Default view">39c29145dbe21300b8ec9444ca9619c5</sys_ui_section>
             <sys_updated_by>admin-cb1</sys_updated_by>
-            <sys_updated_on>2018-06-05 20:39:03</sys_updated_on>
+            <sys_updated_on>2018-06-10 19:16:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -47,69 +47,83 @@
             <element>sub_category</element>
             <position>3</position>
             <sys_created_by>admin-cb1</sys_created_by>
-            <sys_created_on>2018-06-05 20:39:03</sys_created_on>
-            <sys_id>c843fa89dba61300b8ec9444ca96191d</sys_id>
+            <sys_created_on>2018-06-10 19:16:43</sys_created_on>
+            <sys_id>ea501cfedbaa5300b8ec9444ca961969</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_138966_flamin_b_products" sys_domain="global" view="Default view">39c29145dbe21300b8ec9444ca9619c5</sys_ui_section>
             <sys_updated_by>admin-cb1</sys_updated_by>
-            <sys_updated_on>2018-06-05 20:39:03</sys_updated_on>
+            <sys_updated_on>2018-06-10 19:16:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>pack_size</element>
+            <position>4</position>
+            <sys_created_by>admin-cb1</sys_created_by>
+            <sys_created_on>2018-06-10 19:16:43</sys_created_on>
+            <sys_id>6e501cfedbaa5300b8ec9444ca961969</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_138966_flamin_b_products" sys_domain="global" view="Default view">39c29145dbe21300b8ec9444ca9619c5</sys_ui_section>
+            <sys_updated_by>admin-cb1</sys_updated_by>
+            <sys_updated_on>2018-06-10 19:16:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>supplier</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin-cb1</sys_created_by>
-            <sys_created_on>2018-06-05 20:39:03</sys_created_on>
-            <sys_id>4c43fa89dba61300b8ec9444ca96191d</sys_id>
+            <sys_created_on>2018-06-10 19:16:43</sys_created_on>
+            <sys_id>ee501cfedbaa5300b8ec9444ca961969</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_138966_flamin_b_products" sys_domain="global" view="Default view">39c29145dbe21300b8ec9444ca9619c5</sys_ui_section>
             <sys_updated_by>admin-cb1</sys_updated_by>
-            <sys_updated_on>2018-06-05 20:39:03</sys_updated_on>
+            <sys_updated_on>2018-06-10 19:16:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>admin-cb1</sys_created_by>
-            <sys_created_on>2018-06-05 20:39:03</sys_created_on>
-            <sys_id>cc43fa89dba61300b8ec9444ca96191d</sys_id>
+            <sys_created_on>2018-06-10 19:16:43</sys_created_on>
+            <sys_id>62501cfedbaa5300b8ec9444ca96196a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_138966_flamin_b_products" sys_domain="global" view="Default view">39c29145dbe21300b8ec9444ca9619c5</sys_ui_section>
             <sys_updated_by>admin-cb1</sys_updated_by>
-            <sys_updated_on>2018-06-05 20:39:03</sys_updated_on>
+            <sys_updated_on>2018-06-10 19:16:43</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>product_image</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>admin-cb1</sys_created_by>
-            <sys_created_on>2018-06-05 20:39:03</sys_created_on>
-            <sys_id>4043fa89dba61300b8ec9444ca96191e</sys_id>
+            <sys_created_on>2018-06-10 19:16:43</sys_created_on>
+            <sys_id>e2501cfedbaa5300b8ec9444ca96196a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_138966_flamin_b_products" sys_domain="global" view="Default view">39c29145dbe21300b8ec9444ca9619c5</sys_ui_section>
             <sys_updated_by>admin-cb1</sys_updated_by>
-            <sys_updated_on>2018-06-05 20:39:03</sys_updated_on>
+            <sys_updated_on>2018-06-10 19:16:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>cost_per_item</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>admin-cb1</sys_created_by>
-            <sys_created_on>2018-06-05 20:39:03</sys_created_on>
-            <sys_id>c043fa89dba61300b8ec9444ca96191e</sys_id>
+            <sys_created_on>2018-06-10 19:16:43</sys_created_on>
+            <sys_id>66501cfedbaa5300b8ec9444ca96196a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_138966_flamin_b_products" sys_domain="global" view="Default view">39c29145dbe21300b8ec9444ca9619c5</sys_ui_section>
             <sys_updated_by>admin-cb1</sys_updated_by>
-            <sys_updated_on>2018-06-05 20:39:03</sys_updated_on>
+            <sys_updated_on>2018-06-10 19:16:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

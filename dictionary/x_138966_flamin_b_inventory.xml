@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Inventory" max_length="40" name="x_138966_flamin_b_inventory" type="collection">
+        <element label="Branch" mandatory="true" max_length="32" name="branch" reference="x_138966_flamin_b_branches" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Product" mandatory="true" max_length="32" name="product" reference="x_138966_flamin_b_products" type="reference"/>
+        <element label="Reorder Level" mandatory="true" max_length="40" name="reorder_level" type="integer"/>
+        <element label="Stock Level" mandatory="true" max_length="40" name="stock_level" type="integer"/>
+        <index name="index">
+            <element name="product"/>
+        </index>
+        <index name="index2">
+            <element name="branch"/>
+        </index>
+    </element>
+</database>

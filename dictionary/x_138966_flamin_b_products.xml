@@ -4,6 +4,7 @@
         <element label="Category" mandatory="true" max_length="32" name="category" reference="x_138966_flamin_b_categories" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <element label="Cost per Item" mandatory="true" max_length="20" name="cost_per_item" type="price"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Pack Size" mandatory="true" max_length="40" name="pack_size" type="integer"/>
         <element label="Product Image" max_length="40" name="product_image" type="user_image"/>
         <element display="true" label="Product Name" mandatory="true" max_length="60" name="product_name" type="string"/>
         <element label="Sub-category" mandatory="true" max_length="32" name="sub_category" reference="x_138966_flamin_b_sub_categories" reference_qual="javascript:'parent_category=' + current.category;" type="reference" use_reference_qualifier="advanced"/>

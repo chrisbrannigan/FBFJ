@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_138966_flamin_b_inventory</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Insert or Update Inventory Record</name>
+        <order>50</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	var product = current.product;
+	var branch = current.branch;
+	var stockLvl = current.stock_level;
+	
+	var msg = 'A record for product: ' + product.getDisplayValue() + ' at branch: ' + branch.getDisplayValue() + ' was found. Insert was aborted.' + 'Identified inventory record was updated with stock value from aborted form.'; 
+	
+	//check to see if branch-product pair exists
+	var gr = new GlideRecord('x_138966_flamin_b_inventory');
+	gr.addQuery('product',product);
+	gr.addQuery('branch',branch);
+	gr.query();
+	
+	if(gr.next()) {
+		//record exists - update gr and abort current insert.
+		var oldStockLvl = gr.getValue('stock_level');
+		var calc = parseInt(oldStockLvl) + parseInt(stockLvl);
+		gr.setValue('stock_level',calc);		
+		gr.update();
+		//abort the record being inserted.
+		current.setAbortAction(true);
+		//add message
+		gs.addInfoMessage(msg);
+		//redirect to updated record.
+		action.setRedirectURL(gr);
+	} else {
+		//record does not exist - allow insert
+	}
+	
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin-cb1</sys_created_by>
+        <sys_created_on>2018-06-10 20:35:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>642bd876dbea5300b8ec9444ca9619a3</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Insert or Update Inventory Record</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Flamin' Burgers" source="x_138966_flamin_b">3c0158f0dba21300b8ec9444ca961969</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flamin' Burgers">3c0158f0dba21300b8ec9444ca961969</sys_scope>
+        <sys_update_name>sys_script_642bd876dbea5300b8ec9444ca9619a3</sys_update_name>
+        <sys_updated_by>admin-cb1</sys_updated_by>
+        <sys_updated_on>2018-06-10 21:21:56</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=642bd876dbea5300b8ec9444ca9619a3"/>
+</record_update>
